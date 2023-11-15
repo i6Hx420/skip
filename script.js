@@ -12,4 +12,5 @@ setInterval(() => {
         }
     }
 }, 100)
+    window.alert("huh");
 }
