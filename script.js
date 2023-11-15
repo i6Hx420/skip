@@ -1,1 +1,2 @@
-window.alert("it works");
+function doesit(){
+window.alert("it works");}
