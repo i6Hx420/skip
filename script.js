@@ -1,3 +1,3 @@
-function gay() {
+export function gay() {
     window.alert("huh");
 }
