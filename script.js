@@ -1,6 +1,5 @@
 function skip() {
-setInterval(() => {
-	if(document.getElementsByClassName("video-ads")[0].innerHTML !=="") {
+if(document.getElementsByClassName("video-ads")[0].innerHTML !=="") {
 		var banner = false;
 		for(var i = 0; i < document.getElementsByClassName("ytp-ad-overlay-close-button").length; i++) {
 			document.getElementsByClassName("ytp-ad-overlay-close-button")[i].click(); banner = true;
@@ -11,5 +10,4 @@ setInterval(() => {
             catch (err) {document.getElementsByClassName("ytp-ad-skip-button-modern ytp-button")[0].click();}
 		}
 	}
-}, 100)
 }
