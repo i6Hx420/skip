@@ -1,4 +1,5 @@
 function skip() {
+    window.alert("huh");
 setInterval(() => {
     if(document.getElementsByClassName("video-ads")[0].innerHTML !=="") {
         var banner = false;
