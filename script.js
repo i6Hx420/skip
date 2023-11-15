@@ -1,3 +1,3 @@
-function skip() {
+function gay() {
     window.alert("huh");
 }
